@@ -148,22 +148,21 @@ cursor: pointer;
     color: #FFFFFF;
 }
 .our-projects .project{
-    background: #FFFFFF;
+background: #FFFFFF;
 border: 1px solid #EEEEEE;
 width: 370px;
 }
 
-.our-projects h3{
-    font-weight: 700;
+.project-title{
+font-weight: 700;
 font-size: 18px;
 line-height: 171%;
 color: var(--primary-text-color);
 }
 
-.our-projects p{
-    font-weight: 400;
+.project-text{
+font-weight: 400;
 font-size: 16px;
 line-height: 160%;
 color: var(--text-color);
-
 }
