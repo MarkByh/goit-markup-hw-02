@@ -40,7 +40,7 @@ li {
     color: #FFFFFF;
 }
 .log{ color: #2196F3;}
-nav .link{ font-size: 14px; 
+nav a{ font-size: 14px; 
     color: var(--primary-text-color);
     line-height: 100%;
    
@@ -58,6 +58,7 @@ nav .link:focus{
 }
 .contact .link{
    color:  var(--text-color);
+   font-size: 14px;
 }
 .contact .link:hover{
     color: var(--accent-color);
@@ -162,6 +163,7 @@ text-align: center;
 }
 .navigation{
     font-style: normal;
+    font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 background: #F5F4FA;
@@ -176,7 +178,7 @@ cursor: pointer;
     background: var(--accent-color);
     color: #FFFFFF;
 }
-.portfolio-navi button:focus{
+.navigation:focus{
     background: var(--accent-color);
     color: #FFFFFF;
 }
@@ -199,3 +201,4 @@ font-size: 16px;
 line-height: 1.8;
 color: var(--text-color);
 }
+
